@@ -13,6 +13,8 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
+gem "anycable-rails", "~> 1.1"
+gem "redis", ">= 4.0"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
